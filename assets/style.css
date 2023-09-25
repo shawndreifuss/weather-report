@@ -1,0 +1,55 @@
+
+ .flex {
+    display: flex;
+ }
+ 
+ header{
+    text-align: center;
+ }
+ 
+ button{
+     margin: .5em;
+     border-radius: 50;
+     border: none;
+     height: 44px;
+     width: 44px;
+     outline: none;
+     background-color: #7c7c7c2b;
+     color: white;
+     
+     
+ }
+
+ .container {
+    
+    height:200px;
+    width:150px;
+    border:solid;
+ }
+ .form-control {
+    width:250px
+
+ }
+
+ .search-city {
+    height:500px;
+    width:300px;
+    border:solid;
+ }
+
+ .days-container {
+    display: flex;
+    justify-content: space-around;
+ }
+
+ .col {
+   display: flex;
+   flex-direction: column;
+ }
+ .current-weather {
+    border:solid;
+    height:300px;
+    width:95%;
+    margin-left:20px;
+    margin-bottom:50px;
+ }
