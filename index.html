@@ -12,23 +12,33 @@
     <title>Weather-Report</title>
   </head>
 <body>
-
+<!--heading section-->
  <header>
         <h1>Weather Dashboard</h1>
     </header>
+    <!--seach input and recent search history-->
     <main class="flex">
 
     <div class="flex">
   <div class="flex">
     <div class="search-city" >
         <h2>Search for a City</h2>
-        <div>
-            <input type="text" id="search-input" class="form-control me-2" name="searchTerm" placeholder="Search by City"/>
-            <ul class="recent" id="recent-searches"></ul>
+        <div class="col">
+            
+            <form id="search-bar" class="d-flex">
+                <div>
+                  <input type="text" id="search-input" class="form-control me-2" name="searchTerm" placeholder="Search by City"/>
+                  <ul class="recentStyle" id="recentSearches"></ul>
+                </div>
+                <div>
+                  <input type="submit" class="btn btn-outline-light px-4 py-1" id="search-submit" value="Search"/>
+                  
+                </div>
         </div>
         </div>
         </div>
-        </div>
+    </div>
+        <!--current weather dashboard-->
         <div class="flex col">
    <div class="flex">
     <div class="current-weather">
@@ -42,6 +52,7 @@
           </div>
       </div>
     </div>
+    <!--5 day forecast section-->
     <div class="days-container">
     <div class="container">
         <div class="date1"></div>

@@ -4,9 +4,9 @@ var searchButton = document.querySelector('#searchInput');
 
 searchBar.addEventListener('submit', function (event) {
   event.preventDefault();
-  
+   
   var city = event.target.searchTerm.value;
-weatherForecast(city)
+     weatherForecast(city)
 })
 
 

@@ -35,6 +35,8 @@
     height:500px;
     width:300px;
     border:solid;
+    text-align: center;
+    justify-content: center;
  }
 
  .days-container {
