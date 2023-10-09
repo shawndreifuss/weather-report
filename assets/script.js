@@ -1,5 +1,5 @@
 function start() {
-  const cityEl = document.getElementById("city");
+  const cityEl = document.getElementById("enter-city");
   const searchEl = document.getElementById("search-button");
   const nameEl = document.getElementById("city-name");
   const currentIconEl = document.getElementById("icon");
