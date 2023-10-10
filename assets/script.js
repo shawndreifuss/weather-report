@@ -1,5 +1,5 @@
 function start() {
-  const cityEl = document.getElementById("enter-city");
+  const cityEl = document.getElementById("city");
   const searchEl = document.getElementById("search-button");
   const nameEl = document.getElementById("city-name");
   const currentIconEl = document.getElementById("icon");
@@ -101,11 +101,12 @@ function start() {
   }
 
   renderSearchHistory();
-  if (searchHistory.length > 5) {
+  if (searchHistory.length > 0) {
       getWeather(searchHistory[searchHistory.length - 1]);
   }
   
 }
+
 
 start();
  
